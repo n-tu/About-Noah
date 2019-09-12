@@ -1,0 +1,68 @@
+/**
+  Colors are 
+    #D93B65
+    #59402A
+    #A66249
+    #260101
+    #732F2F
+   */
+header {
+  background: #59402a;
+  padding: 60px;
+  color: #a66249;
+  font-size: 50px;
+}
+
+h2 {
+  color: #d93b65;
+}
+
+footer {
+  background: #d93b65;
+  padding: 5px;
+  color: #260101;
+  font-size: 15px;
+}
+
+h1 {
+  color: #d93b65;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+  color: #d93b65;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 100;
+}
+
+h3 {
+  color: #d93b65;
+}
+
+p2 {
+  color: #732f2f;
+  font-size: 30px;
+}
+
+h2 {
+  color: #732f2f;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
